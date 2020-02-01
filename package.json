@@ -1,0 +1,16 @@
+{
+  "name": "dbbuzzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DbBuzzer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.8.11",
+    "slackbots": "^1.2.0"
+  }
+}
