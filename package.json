@@ -4,7 +4,12 @@
   "description": "",
   "main": "DbBuzzer.js",
   "scripts": {
+    "start": "node DBbuzzer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "12.11.1",
+    "npm": "6.13.0"
   },
   "author": "",
   "license": "ISC",
