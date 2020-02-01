@@ -9,11 +9,12 @@ const slackBot =
         name: 'ALFRED'
     })
 
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/alfred', { useUnifiedTopology: true, useNewUrlParser: true }).then(() => console.log('DB Connected!'))
+let mongoose = require('mongoose');
+mongoose.connect(`${process.env.MONGODB_URL}`, { useNewUrlParser: true }).then(() => console.log('DB Connected!'))
     .catch(err => {
         console.log(err);
     });
+
 
 slackBot.on('message', () => {
     if (mongoose.connection.readyState == 0) {
