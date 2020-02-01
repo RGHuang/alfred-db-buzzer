@@ -2,9 +2,9 @@
   "name": "dbbuzzer",
   "version": "1.0.0",
   "description": "",
-  "main": "DbBuzzer.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node DBbuzzer.js",
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
