@@ -16,7 +16,7 @@ mongoose.connect(`${process.env.MONGODB_URL}`, { useNewUrlParser: true }).then((
         console.log(err);
     });
 
-let checkStatusCron = new CronJob('* 2 * * * * ', function () {
+let checkStatusCron = new CronJob('* 20 * * * * ', function () {
     console.log('start checking');
     sendWarningToSlack();
 }, null, true, 'America/Los_Angeles');
