@@ -2,9 +2,9 @@
   "name": "dbbuzzer",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "databaseHeartbeat.js",
   "scripts": {
-    "start": "node bot.js",
+    "start": "node databaseHeartbeat.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -14,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cron": "^1.8.2",
     "dotenv": "^8.2.0",
     "mongoose": "^5.8.11",
+    "node-schedule": "^1.3.2",
     "slackbots": "^1.2.0"
   }
 }
