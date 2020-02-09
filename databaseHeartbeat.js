@@ -17,6 +17,8 @@ mongoose.connect(`${process.env.BOT_MONGODB_URL}`, { useNewUrlParser: true }).th
         console.log(err);
     });
 
+process.env.TZ = 'Asia/Shanghai'
+
 let checkStatusSchedule = new schedule.scheduleJob('10 * * * * * ', function () {
     console.log('start checking');
     let checkingTime = new Date();
