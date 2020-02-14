@@ -1,1 +1,1 @@
-worker: node databaseHeartbeat.js
+worker: node databaseStethoscope.js

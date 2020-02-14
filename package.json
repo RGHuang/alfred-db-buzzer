@@ -1,8 +1,8 @@
 {
-  "name": "dbbuzzer",
+  "name": "database-stethoscope",
   "version": "1.0.0",
   "description": "",
-  "main": "databaseHeartbeat.js",
+  "main": "databaseStethoscope.js",
   "scripts": {
     "start": "node databaseHeartbeat.js",
     "test": "echo \"Error: no test specified\" && exit 1"
